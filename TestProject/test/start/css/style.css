@@ -378,6 +378,59 @@ text-transform: uppercase;
 /* end portfolio */
 
 
+/* start question */
+
+.question {
+    padding-top: 152px;
+    padding-bottom: 150px;
+}
+.question .section__h2 {
+    margin-bottom: 50px;
+
+}
+.question__items {
+}
+.question__item {
+}
+.question__h3 {
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-bottom: 30px;
+}
+.question__h3.close::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/Polygon.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 12px;
+}
+
+.question__p {
+    margin-bottom: 32px;
+    color: var(--gray-color);
+    max-width: 730px;
+}
+.question__h3.open::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/Polygon.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+    transform: rotate(-90deg);
+}
+.question__h3.close + .question__p {
+    display: none;
+}
+
+/* end question */
 
 @media screen and (max-width: 1280px) {
     .about {
