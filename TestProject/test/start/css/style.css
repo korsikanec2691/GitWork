@@ -359,7 +359,23 @@ text-transform: uppercase;
 
 /* end services */
 
+/* start portfolio */
 
+
+.portfolio {
+}
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 0;
+}
+.portfolio__grid-item {
+}
+.portfolio__img {
+}
+
+/* end portfolio */
 
 
 
@@ -386,6 +402,9 @@ text-transform: uppercase;
     }
     .services__grid-item{
         width: 100%;
+    }
+    .portfolio__grid  {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -420,6 +439,10 @@ text-transform: uppercase;
     .servises__grid {
         grid-template-columns: repeat(1, 1fr);
     }
+    .portfolio__grid  {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
 
 
